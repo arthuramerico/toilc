@@ -17,10 +17,10 @@ solve(pdfOutput="graphs/Experiment2_Figure6.pdf", distX="experimentData.txt", ee
 
 print("\n===============Third Experiment===============")
 print("\nResults for Figure 7:")
-solve(pdfOutput="graphs/Experiment2_Figure7.pdf", distX="experimentData.txt", eeps=2, delta=0, noise=1, noPlot=True)
+solve(pdfOutput="graphs/Experiment3_Figure7.pdf", distX="experimentData.txt", eeps=2, delta=0, noise=1, noPlot=True)
 
 print("\nResults for Figure 8:")
-solve(pdfOutput="graphs/Experiment2_Figure8.pdf", distX="experimentData.txt", eeps=2, delta=0.15, deltaLeft=0.15, tailMult=1.5, noise=1, noPlot=True)
+solve(pdfOutput="graphs/Experiment3_Figure8.pdf", distX="experimentData.txt", eeps=2, delta=0.15, deltaLeft=0.15, tailMult=1.5, noise=1, noPlot=True)
 
 print("\nThe charts obtained from the experiments can be found in the 'graphs' folder.")
 
