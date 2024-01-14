@@ -223,6 +223,8 @@ def plotResults(inputSize,px,eEpsilon,pTildex, noPlot, filename):
     plt.plot(t,eEpsilon*px,'--',label=r'$e^\epsilon p_{X}$')
     plt.plot(t,eMinusEpsilon*px,'--',label=r'$e^{-\epsilon} p_{X}$')
     plt.plot(t, pTildex,'--', label=r'$p_{\tilde{X}}$')
+    plt.xlabel("Volume Pressure")
+    plt.ylabel("Probability Mass")
     plt.legend(loc="upper left")
     if len(filename)>0:
         if len(filename)>4 and filename[-4:]=='.pdf':
